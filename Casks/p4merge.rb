@@ -1,6 +1,6 @@
 cask 'p4merge' do
-  version '19.1-1815056'
-  sha256 '50dd06481871afe6718f49b0ed6de8446af4a4f69ae9716775840e0b9251546a'
+  version '19.2-1856742'
+  sha256 'e87b9319e4ade57e43164376ad18f749347402693adfa03d851fa2b574e70b7d'
 
   url "https://cdist2.perforce.com/perforce/r#{version.major_minor}/bin.macosx1013x86_64/P4V.dmg"
   appcast 'https://cdist2.perforce.com/perforce/'
