@@ -1,8 +1,8 @@
 cask 'p4merge' do
-  version '19.2-1856742'
-  sha256 'e87b9319e4ade57e43164376ad18f749347402693adfa03d851fa2b574e70b7d'
+  version '19.2,1904275'
+  sha256 '3be134b634129ad24af30759d3fbb55f55abef5b3f56d48acce14e0b244f8cca'
 
-  url "https://cdist2.perforce.com/perforce/r#{version.major_minor}/bin.macosx1013x86_64/P4V.dmg"
+  url "https://cdist2.perforce.com/perforce/r#{version.before_comma}/bin.macosx1013x86_64/P4V.dmg"
   appcast 'https://cdist2.perforce.com/perforce/'
   name 'P4Merge'
   homepage 'https://www.perforce.com/products/helix-core-apps/helix-visual-client-p4v'
